@@ -48,3 +48,44 @@ h1 {
 p {
   font-size: 1.2rem;
 }
+.home-container,
+.services-container,
+.projects-container,
+.contact-container{
+  font-size: 1.5rem;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .home-container,
+    .services-container,
+    .projects-container,
+    .contact-container {
+    background-size: contain;
+    min-height: 80vh;
+    padding: 40px 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .home-container,
+    .services-container,
+    .projects-container,
+    .contact-container{
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
